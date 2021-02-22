@@ -44,10 +44,12 @@ function Spot() {
       gridColumn: "1/3",
     };
     let priceStyles = {
+        fontSize:"24px",
       textAlign: "center",
       gridColumn: "1/2",
     };
     let timeToGoStyles = {
+        fontSize:"24px",
       textAlign: "center",
       gridColumn: "2/3",
     };

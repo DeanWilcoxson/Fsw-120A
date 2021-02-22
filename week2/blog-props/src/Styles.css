@@ -1,0 +1,114 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+#header {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 175px;
+}
+
+#title {
+    font-size: 90px;
+    font-family: "Open Sans", sans-serif;
+    padding: 0px;
+}
+
+#desc {
+    font-weight: 100;
+    font-size: 26px;
+}
+
+#nav-container {
+    background-color: grey;
+    display: grid;
+    font-size: 20px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+#navbar1 {
+    display: flex;
+    margin-left: 10px;
+    grid-column: 1/2;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar2 {
+    text-decoration: none;
+    color: white;
+    grid-column: 3/4;
+}
+
+#navbar3 {
+    text-decoration: none;
+    color: white;
+    grid-column: 4/5;
+}
+
+#navbar4 {
+    text-decoration: none;
+    color: white;
+    grid-column: 5/6;
+}
+
+#navbar5 {
+    text-decoration: none;
+    color: white;
+    grid-column: 6/7;
+}
+
+#blogpost {
+    font-size: 22px;
+    text-align: center;
+    display: grid;
+    padding: 0px;
+    margin: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#blogdata {
+    margin: 0px;
+    grid-column: 2/4;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+#blogdata1 {
+    margin: 0px;
+    grid-column: 2/4;
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 28px;
+    color: black;
+}
+
+#blogdata2 {
+    font-family: serif;
+    font-style: oblique;
+    grid-column: 2/4;
+    text-align: justify;
+    color: lightgrey;
+    margin-bottom: 0px;
+}
+
+#blogauthor {
+    color: black;
+    font-family: serif;
+}
+
+#button {
+    float: right;
+    margin-right: 30%;
+    background-color: teal;
+    color: white;
+    font-size: 15px;
+}
+
+#footer {
+    text-align: center;
+    color: lightgrey;
+    font-style: italic;
+    padding: 50px;
+}

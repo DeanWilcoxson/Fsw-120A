@@ -3,14 +3,25 @@ import React from "react";
 function App() {
   return (
     <div>
-      <input type="checkbox" />
-      <p>Placeholder Text Here</p>
-      <input type="checkbox" />
-      <p>Placeholder Text Here</p>
-      <input type="checkbox" />
-      <p>Placeholder Text Here</p>
-      <input type="checkbox" />
-      <p>Placeholder Text Here</p>
+      <p>
+        Favorite Color: Blue
+        <input type="checkbox" />
+      </p>
+
+      <p>
+        Favorite Color: Red
+        <input type="checkbox" />
+      </p>
+
+      <p>
+        Favorite Color: Green
+        <input type="checkbox" />
+      </p>
+
+      <p>
+        Favorite Color: Pink
+        <input type="checkbox" />
+      </p>
     </div>
   );
 }

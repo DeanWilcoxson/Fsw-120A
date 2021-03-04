@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from "react";
+import Data from "./Heroes";
+export default class App extends Component{
+  render() {
+    console.log(Data);
+    let heroes = Data.map((x) => {
+      console.log(x)
+      return (
+        <div key={x.id}>
+          <button
+            onClick={() => {
+              alert(x.catchPhrase);
+            }}
+          >
+            <img src={x.imageName} style={{width:"100%"}}alt="catphoto.jpeg"></img>
+            <h1>{x.name}</h1>
+            <h3>{x.show}</h3>
+          </button>
+        </div>
+      );
+    });
+    return <div>{heroes}</div>;
+  }
 }
-
-export default App;

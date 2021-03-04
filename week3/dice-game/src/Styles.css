@@ -1,0 +1,16 @@
+#dicebox {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    text-align: center;
+}
+
+#num {
+    text-align: center;
+}
+
+#roll {
+    font-family: "50 blizzards";
+}
